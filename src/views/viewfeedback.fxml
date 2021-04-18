@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="738.0" styleClass="admin" stylesheets="@styleformainmenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewfeedbackController">
+   <children>
+      <Button fx:id="btnBack" layoutX="30.0" layoutY="434.0" mnemonicParsing="false" onAction="#back" prefHeight="41.0" prefWidth="142.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Back" />
+      <TableView fx:id="table" layoutX="30.0" prefHeight="417.0" prefWidth="678.0">
+         <columns>
+            <TableColumn fx:id="colname" prefWidth="76.0" text="Username" />
+            <TableColumn fx:id="colemail" prefWidth="88.0" text="Email" />
+            <TableColumn fx:id="colq1" prefWidth="75.0" text="q1" />
+            <TableColumn fx:id="colq2" prefWidth="84.0" text="q2" />
+            <TableColumn fx:id="colq3" prefWidth="72.0" text="q3" />
+            <TableColumn fx:id="colq4" prefWidth="95.0" text="q4" />
+            <TableColumn fx:id="colq5" prefWidth="94.0" text="q5" />
+            <TableColumn fx:id="colq6" prefWidth="93.0" text="q6" />
+         </columns>
+      </TableView>
+      <Line endX="-31.0" layoutX="770.0" layoutY="42.0" startX="-61.0" />
+      <Button fx:id="btnDelete" layoutX="567.0" layoutY="434.0" mnemonicParsing="false" onAction="#Delete" prefHeight="41.0" prefWidth="142.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Delete Info" />
+      <Line endX="-31.0" layoutX="60.0" layoutY="42.0" startX="-61.0" />
+   </children>
+</AnchorPane>

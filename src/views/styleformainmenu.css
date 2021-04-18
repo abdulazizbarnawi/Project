@@ -1,0 +1,57 @@
+.button{
+    -fx-background-color:#0076A3  ;
+    -fx-text-fill: white; 
+    -fx-font-size:18;
+    -fx-font-weight:bold;
+    
+}
+ .button:hover{
+    -fx-background-color:#0076A3  ;
+}
+
+#btnBack{
+    -fx-background-color:greenyellow;
+}
+#btnBack :hover{
+    -fx-background-color:bisque;
+}
+
+#btnReject {
+    -fx-background-color:red;
+}
+#btnReject :hover{
+    -fx-background-color:chocolate;
+}
+
+#btnDelete{
+    -fx-background-color:red;
+}
+#btnDelete :hover{
+    -fx-background-color:chocolate;
+}
+
+#btnCancel{
+    -fx-background-color:red;
+}
+#btnCancel :hover{
+    -fx-background-color:chocolate;
+}
+
+#btnAdd{
+    -fx-background-color:lightseagreen
+}
+#btnAdd :hover{
+    -fx-background-color:chocolate;
+}
+#txtSearch{
+    -fx-background-color:darkseagreen;
+} 
+
+#AnchorPane {
+   
+     -fx-background-color: linear-gradient(aliceblue, beige);
+	 
+}
+    .roof2{
+    -fx-background-color: linear-gradient(aliceblue, hotel_icon_has_restaurant_115689);
+    }   

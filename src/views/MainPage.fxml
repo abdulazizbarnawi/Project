@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="544.0" prefWidth="854.0" styleClass="admin" stylesheets="@styleformainmenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainPageController">
+    <children>
+        <Button fx:id="butuser" layoutX="549.0" layoutY="188.0" onAction="#users" prefHeight="65.0" prefWidth="243.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="For Users" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="btnAdd" layoutX="549.0" layoutY="337.0" mnemonicParsing="false" onAction="#admins" prefHeight="65.0" prefWidth="243.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="For Admins" textAlignment="JUSTIFY" />
+      <Label layoutX="490.0" layoutY="112.0" prefHeight="50.0" prefWidth="362.0" text="Growth in kingdowm program" textFill="#366d72">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="282.0" text="Or" textFill="#366d72">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="548.0" fitWidth="475.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@saudi-arabia-afp.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

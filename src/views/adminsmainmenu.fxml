@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="738.0" styleClass="admin" stylesheets="@styleformainmenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdminsmainmenuController">
+   <children>
+      <ImageView fitHeight="96.0" fitWidth="101.0" layoutX="321.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="160.0" layoutX="508.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@management.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="mangebut" layoutX="486.0" layoutY="235.0" mnemonicParsing="false" onAction="#mangecity" prefHeight="39.0" prefWidth="201.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="manage cities" />
+      <Button fx:id="btnBack" layoutX="314.0" layoutY="454.0" mnemonicParsing="false" onAction="#back" prefHeight="41.0" prefWidth="110.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Back" />
+      <Button fx:id="editbut" layoutX="99.0" layoutY="237.0" mnemonicParsing="false" onAction="#edituser" prefHeight="39.0" prefWidth="157.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Edit user" />
+      <ImageView fitHeight="146.0" fitWidth="157.0" layoutX="105.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@edit-user-female.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnViewFeedback" layoutX="303.0" layoutY="381.0" mnemonicParsing="false" onAction="#handelViewFeedback" prefHeight="25.0" prefWidth="134.0" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="View Users Feedback" />
+      <ImageView fitHeight="146.0" fitWidth="157.0" layoutX="297.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-favorite-folder-96.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="584.0" prefWidth="320.0" styleClass="admin" stylesheets="@styleformainmenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterController">
+   <children>
+      <Label layoutX="27.0" layoutY="233.0" text="Username">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="29.0" layoutY="288.0" text="Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtname" layoutX="98.0" layoutY="224.0" prefHeight="34.0" prefWidth="149.0" />
+      <PasswordField fx:id="txtpass" layoutX="99.0" layoutY="279.0" prefHeight="34.0" prefWidth="149.0" />
+      <Button fx:id="btnBack" layoutX="51.0" layoutY="484.0" mnemonicParsing="false" onAction="#backk" prefHeight="34.0" prefWidth="66.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Back" />
+      <Button fx:id="btnAdd" layoutX="139.0" layoutY="484.0" mnemonicParsing="false" onAction="#register" prefHeight="39.0" prefWidth="115.0" style="-fx-border-radius: 5em; -fx-background-radius: 5em;" styleClass="buttonmain" stylesheets="@styleformainmenu.css" text="Register" />
+      <Label layoutX="41.0" layoutY="345.0" text="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="403.0" text="Phone number">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtemail" layoutX="98.0" layoutY="337.0" prefHeight="34.0" prefWidth="149.0" />
+      <TextField fx:id="txtphone" layoutX="99.0" layoutY="395.0" prefHeight="34.0" prefWidth="149.0" />
+      <ImageView fitHeight="189.0" fitWidth="334.0" layoutX="-6.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@edit-user-female.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+.walllogin{
+    -fx-background-image: url("/icons/photo-1600456899121-68eda5705257.jpeg")
+    
+    
+}
+
+.button{
+    -fx-background-color:  #999999;
+
+    
+    
+}
+
+.button:hover{
+    -fx-background-color:   #e6e6e6;
+
+
+    
+    
+}
+
+
+.wallblack{
+    -fx-background-image: url("/icons/wp4063163.jpg")
+    
+    
+}
+
+
+
